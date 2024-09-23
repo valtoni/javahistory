@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/module-facilities/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/module-facilities/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/module-hovercraft-blue/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/module-hovercraft-blue/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/module-hovercraft-red/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/module-hovercraft-red/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/module-hovercraft/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/module-hovercraft/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/module-matrix/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/module-matrix/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/module-reality/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/module-reality/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>

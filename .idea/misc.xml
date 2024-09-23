@@ -7,6 +7,12 @@
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/module-hovercraft-blue/pom.xml" />
+        <option value="$PROJECT_DIR$/module-hovercraft-red/pom.xml" />
+      </set>
+    </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_22" project-jdk-name="temurin-22" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
