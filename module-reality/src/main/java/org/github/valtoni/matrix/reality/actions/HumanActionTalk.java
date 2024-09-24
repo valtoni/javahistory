@@ -2,7 +2,7 @@ package org.github.valtoni.matrix.reality.actions;
 
 import org.github.valtoni.matrix.reality.humans.RealPerson;
 
-public class HumanActionTalk implements HumanAction {
+public class HumanActionTalk<T extends RealPerson> implements HumanAction<T> {
 
     private final boolean think;
     private final String message;

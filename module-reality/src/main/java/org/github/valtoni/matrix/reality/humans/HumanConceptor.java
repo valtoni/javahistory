@@ -4,11 +4,11 @@ import javax.validation.constraints.NotBlank;
 
 public class HumanConceptor {
 
-    public RealPerson create(@NotBlank String name, boolean isAnomaly) {
+    public <T extends RealPerson> T create(@NotBlank String name, boolean isAnomaly) {
         if (isAnomaly) {
-            return new RealHumanAnomaly(name);
+            return (T) new RealHumanAnomaly(name);
         }
-        return new RealHuman(name);
+        return (T) new RealHuman(name);
     }
 
 }

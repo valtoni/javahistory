@@ -2,17 +2,17 @@ package org.github.valtoni.matrix.reality.actions;
 
 import org.github.valtoni.matrix.reality.humans.RealPerson;
 
-public class HumanInteractionDialog implements HumanInteraction {
+public class HumanInteractionDialog<T extends RealPerson> implements HumanInteraction<T> {
 
-    private RealPerson sender;
-    private RealPerson recipient;
+    private final T sender;
+    private final T recipient;
 
-    public HumanInteractionDialog(RealPerson sender, RealPerson recipient) {
+    public HumanInteractionDialog(T sender, T recipient) {
         this.sender = sender;
         this.recipient = recipient;
     }
 
-    public void interact(HumanAction actionSender, HumanAction actionRecipient) {
+    public void interact(HumanAction<T> actionSender, HumanAction<T> actionRecipient) {
         if (actionSender == null && actionRecipient == null) {
             System.out.println("Anyone must say something");
         }
