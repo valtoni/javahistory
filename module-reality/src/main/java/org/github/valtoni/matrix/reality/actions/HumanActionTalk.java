@@ -1,5 +1,6 @@
 package org.github.valtoni.matrix.reality.actions;
 
+import org.github.valtoni.matrix.reality.humans.RealHuman;
 import org.github.valtoni.matrix.reality.humans.RealPerson;
 
 public class HumanActionTalk<T extends RealPerson> implements HumanAction<T> {
@@ -21,13 +22,8 @@ public class HumanActionTalk<T extends RealPerson> implements HumanAction<T> {
     }
 
     public static void main(String[] args) {
-        RealPerson prototype = new RealPerson() {
-            @Override
-            public String getName() {
-                return "Prototype";
-            }
-        };
-        new HumanActionTalk(false, "Hi! I don't know no what to say.").doAction(prototype);
+        RealHuman human = new RealHuman("Neo");
+        new HumanActionTalk<RealHuman>(false, "Hi! I don't know no what to say.").doAction(human);
     }
 
 }
