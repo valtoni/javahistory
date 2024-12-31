@@ -39,7 +39,7 @@ public class Singularity<T extends RealPerson> {
      * @return the current instance of Singularity
      */
     public Singularity<T> createDialog() {
-        this.interaction = new HumanInteractionDialog<T>(sender, recipient);
+        this.interaction = new HumanInteractionDialog<>(sender, recipient);
         return this;
     }
 

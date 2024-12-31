@@ -10,6 +10,10 @@
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
+    <properties>
+        <project.mainclass>org.github.valtoni.matrix.facilities.Main</project.mainclass>
+    </properties>
+
     <artifactId>module-facilities</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
@@ -25,6 +29,15 @@
             <version>2.0.1</version>
         </dependency>
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 
 
 </project>

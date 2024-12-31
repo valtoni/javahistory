@@ -10,8 +10,11 @@
     <packaging>pom</packaging>
 
     <properties>
-        <maven.compiler.release>9</maven.compiler.release>
+        <maven.compiler.release>10</maven.compiler.release>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.mainclass>org.github.valtoni.matrix.facilities.Main</project.mainclass>
+        <project.cdnlist>${project.build.directory}${file.separator}classes.lst</project.cdnlist>
+        <project.cdnfile>${project.build.directory}${file.separator}classes.jsa</project.cdnfile>
     </properties>
 
     <dependencyManagement>
@@ -42,6 +45,34 @@
                     <version>3.13.0</version>
                 </plugin>
                 <plugin>
+                    <groupId>org.codehaus.mojo</groupId>
+                    <artifactId>exec-maven-plugin</artifactId>
+                    <version>3.5.0</version>
+                    <configuration>
+                        <executable>java</executable>
+                        <arguments>
+                            <argument>-XX:SharedArchiveFile=${project.cdnfile}</argument>
+                            <argument>-cp</argument>
+                            <classpath/>
+                            <argument>${project.mainclass}</argument>
+                        </arguments>
+                    </configuration>
+                    <executions>
+                        <execution>
+                            <id>cdn-generate-list</id>
+                            <phase>process-classes</phase>
+                            <goals>
+                                <goal>exec</goal>
+                            </goals>
+                            <configuration>
+                                <successCodes>0,1</successCodes>
+                                <executable>java</executable>
+                                <arguments>-XX:DumpLoadedClassList=${project.cdnlist}" -cp "${project.build.outputDirectory}</arguments>
+                            </configuration>
+                        </execution>
+                    </executions>
+                </plugin>
+                <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-surefire-plugin</artifactId>
                     <version>3.5.0</version>
@@ -49,7 +80,5 @@
             </plugins>
         </pluginManagement>
     </build>
-
-
 
 </project>

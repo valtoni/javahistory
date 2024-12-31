@@ -14,7 +14,7 @@ public class HumanActionTalk<T extends RealPerson> implements HumanAction<T> {
     }
 
     public String doAction(RealPerson person) {
-        String message = String.format("%s: %s", person.getName(), this.message);
+        var message = String.format("%s: %s", person.getName(), this.message);
         if (!think) {
             System.out.printf("- %s", message);
         }
@@ -22,7 +22,7 @@ public class HumanActionTalk<T extends RealPerson> implements HumanAction<T> {
     }
 
     public static void main(String[] args) {
-        RealHuman human = new RealHuman("Neo");
+        var human = new RealHuman("Neo");
         new HumanActionTalk<RealHuman>(false, "Hi! I don't know no what to say.").doAction(human);
     }
 
