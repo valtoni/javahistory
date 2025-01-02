@@ -10,7 +10,7 @@
     <packaging>pom</packaging>
 
     <properties>
-        <maven.compiler.release>10</maven.compiler.release>
+        <maven.compiler.release>11</maven.compiler.release>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.mainclass>org.github.valtoni.matrix.facilities.Main</project.mainclass>
         <project.cdnlist>${project.build.directory}${file.separator}classes.lst</project.cdnlist>

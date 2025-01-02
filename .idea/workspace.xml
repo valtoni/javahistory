@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5918d585-9e33-411c-b596-a108735fdb6c" name="Changes" comment="Added java 10 improvements">
+    <list default="true" id="5918d585-9e33-411c-b596-a108735fdb6c" name="Changes" comment="Added java time-based info">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-facilities/src/main/java/org/github/valtoni/matrix/facilities/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-facilities/src/main/java/org/github/valtoni/matrix/facilities/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-matrix/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/module-matrix/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-matrix/src/main/java/org/github/valtoni/matrix/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-matrix/src/main/java/org/github/valtoni/matrix/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +29,11 @@
         <option name="argument" value="--tags" />
         <option name="title" value="All" />
       </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -56,12 +64,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Main.executor": "Debug",
+    "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "java11",
     "go.import.settings.migrated": "true",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
@@ -133,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735661527161</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added java time-based info">
+      <option name="closed" value="true" />
+      <created>1735663096647</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1735663096647</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,7 +169,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Improvements to take pill and the project&#10;&#10;- Added documentation to Singularity class&#10;- Added IntelliJ control directory&#10;- Added Pill Action" />
     <MESSAGE value="Added java 10 improvements" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added java 10 improvements" />
+    <MESSAGE value="Added java time-based info" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added java time-based info" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>

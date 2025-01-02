@@ -39,3 +39,7 @@ This project show ups the differences between each java major versions.
 - :heavy_check_mark: Optional.orElseThrow() as a replacement for Optional.get()
 - :heavy_check_mark: Application Class-Data Sharing (CDS) - applied onto maven
 - :ok: Garbage-Collector interface - only to note, not necessary to make any changes in project
+
+## Java 11
+- :heavy_check_mark: Strings - methods repeat, lines, strip, stripLeading, stripTrailing and isBlank
+- :heavy_check_mark: Files - methods readString and writeString
