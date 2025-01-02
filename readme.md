@@ -33,7 +33,7 @@ This project show ups the differences between each java major versions.
   - :heavy_exclamation_mark: jcmd Enhancements - includes additional commands and options for gathering performance-related information from runnings JVMs.
   - :heavy_exclamation_mark: Stack-Walking API - traverse and analyze stack traces, inspect the call stack with fine-grained control.
 
-## Java 10
+## [Java 10](https://www.oracle.com/java/technologies/javase/10-relnote-issues.html)
 - :heavy_check_mark: Local-variable type inference (var)
 - :heavy_check_mark: Unmodifiable collections (List.copyOf, Set.copyOf, Map.copyOf) 
 - :heavy_check_mark: Optional.orElseThrow() as a replacement for Optional.get()
@@ -42,6 +42,17 @@ This project show ups the differences between each java major versions.
 - Tricks
   - Run Source Files: java source file can be run calling directly `java TheWonderfulClass.java`.
 
-## Java 11
+## [Java 11](https://www.oracle.com/java/technologies/javase/11-relnote-issues.html)
 - :heavy_check_mark: Strings - methods repeat, lines, strip, stripLeading, stripTrailing and isBlank
 - :heavy_check_mark: Files - methods readString and writeString
+
+## [Java 12](https://www.oracle.com/java/technologies/javase/12-relnote-issues.html)
+:neckbeard: Anything meaningful can be added. Contributes are welcome !
+
+## [Java 13](https://www.oracle.com/java/technologies/javase/13-relnote-issues.html)
+:neckbeard: Anything meaningful can be added. Contributes are welcome !
+
+## [Java 14](https://www.oracle.com/java/technologies/javase/14-relnote-issues.html)
+- :heavy_check_mark: Improved switch statements
+- :heavy_check_mark: Multiline Strings
+- :heavy_check_mark: Helpful NullPointerExceptions
