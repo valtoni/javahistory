@@ -39,3 +39,5 @@ This project show ups the differences between each java major versions.
 - :heavy_check_mark: Optional.orElseThrow() as a replacement for Optional.get()
 - :heavy_check_mark: Application Class-Data Sharing (CDS) - applied onto maven
 - :ok: Garbage-Collector interface - only to note, not necessary to make any changes in project
+- Tricks
+  - Run Source Files: java source file can be run calling directly `java TheWonderfulClass.java`.
