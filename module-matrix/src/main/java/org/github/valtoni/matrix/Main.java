@@ -72,12 +72,22 @@ public class Main {
 
         System.out.format("%d of %s will attack Neo now!", agentSmithSet.size(), agentSmithSet.stream().findFirst().orElseThrow());
 
+        // Agent Smith and java 12 String
+        var agentSmithSet2 = agentSmith
+                .transform(string -> "--" + string + "--")
+                .repeat(10000)
+                .lines()
+                .map(currentMrSmith -> currentMrSmith.indent(4))
+                .collect(Collectors.toList());
+
+        System.out.format("%d of %s will attack Neo now! (wave2)\n", agentSmithSet2.size(), agentSmithSet2.stream().findFirst().orElseThrow());
+
         // Agent Smith and java 11 Files
         Path path = Files.writeString(
                 Files.createTempFile("agentSmith", ".mtrx"),
                 agentSmithSet.stream().reduce("ListPhase1AgentSmith: ", (x, y) -> x + y),
                 StandardCharsets.UTF_8,
-                StandardOpenOption.DELETE_ON_CLOSE
+                StandardOpenOption.WRITE
         );
         String readString = Files.readString(path);
         System.out.println("Readed from temp Phase1: " + readString);

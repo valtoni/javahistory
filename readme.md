@@ -45,3 +45,6 @@ This project show ups the differences between each java major versions.
 ## Java 11
 - :heavy_check_mark: Strings - methods repeat, lines, strip, stripLeading, stripTrailing and isBlank
 - :heavy_check_mark: Files - methods readString and writeString
+
+## Java 12
+- :heavy_check_mark: Strings - transform and indent
