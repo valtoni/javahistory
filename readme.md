@@ -61,3 +61,8 @@ This project show ups the differences between each java major versions.
 - :heavy_check_mark: Text-Blocks / Multiline Strings
 - :heavy_check_mark: Removed Nashorn JavaScript Engine
 - :heavy_check_mark: [Z Garbage Collector](https://wiki.openjdk.org/display/zgc/Main) is production ready
+
+## [Java 16](https://www.oracle.com/java/technologies/javase/16-relnote-issues.html)
+- :heavy_check_mark: Pattern Matching for instanceof
+- :heavy_check_mark: Unix Domain Sockets are now supported (note: UDS was introduced in Windows [starting at version 10 insider build 17063](https://devblogs.microsoft.com/commandline/af_unix-comes-to-windows/?form=MG0AV3))
+- 

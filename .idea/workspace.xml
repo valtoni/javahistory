@@ -4,16 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5918d585-9e33-411c-b596-a108735fdb6c" name="Changes" comment="Workspace finished">
+    <list default="true" id="5918d585-9e33-411c-b596-a108735fdb6c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/module-facilities/src/main/java/org/github/valtoni/matrix/facilities/OsDomainSocketChannels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-facilities/src/main/java/org/github/valtoni/matrix/facilities/PatternMatchingInstanceOf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-reality/src/main/java/org/github/valtoni/matrix/reality/Singularity.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-reality/src/main/java/org/github/valtoni/matrix/reality/Singularity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-reality/src/main/java/org/github/valtoni/matrix/reality/actions/HumanAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-reality/src/main/java/org/github/valtoni/matrix/reality/actions/HumanAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-reality/src/main/java/org/github/valtoni/matrix/reality/actions/HumanActionFly.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-reality/src/main/java/org/github/valtoni/matrix/reality/actions/HumanActionFly.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-reality/src/main/java/org/github/valtoni/matrix/reality/actions/HumanActionTakePill.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-reality/src/main/java/org/github/valtoni/matrix/reality/actions/HumanActionTakePill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-reality/src/main/java/org/github/valtoni/matrix/reality/actions/HumanActionTalk.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-reality/src/main/java/org/github/valtoni/matrix/reality/actions/HumanActionTalk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-reality/src/main/java/org/github/valtoni/matrix/reality/humans/HumanConceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-reality/src/main/java/org/github/valtoni/matrix/reality/humans/HumanConceptor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/github/valtoni/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-facilities/src/main/java/org/github/valtoni/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/github/valtoni/java8/DefaultMethodExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/github/valtoni/java8/LambdaExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/github/valtoni/java8/MethodReferenceExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/github/valtoni/java8/RepeatedAnnotationExample.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,18 +64,19 @@
   <component name="ProjectViewState">
     <option name="flattenModules" value="true" />
     <option name="flattenPackages" value="true" />
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
     "Application.MultilineText.executor": "Run",
+    "Application.OsDomainSocketChannels.executor": "Run",
+    "Application.PatternMatchingInstanceOf.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "git-widget-placeholder": "java15",
+    "git-widget-placeholder": "main",
     "go.import.settings.migrated": "true",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
@@ -92,6 +94,25 @@
   }
 }]]></component>
   <component name="RunManager">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="javahistory" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="javahistory" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
     <configuration name="HumanActionTalk" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.github.valtoni.matrix.reality.actions.HumanActionTalk" />
       <module name="module-reality" />
@@ -153,25 +174,6 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
-      <module name="javahistory" />
-      <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
-      <module name="javahistory" />
-      <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
-      <kind value="DIRECTORY" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
       <module name="javahistory" />
       <working_directory value="$PROJECT_DIR$" />
@@ -228,19 +230,18 @@
       <workItem from="1736003367658" duration="27000" />
       <workItem from="1736003422701" duration="914000" />
     </task>
-    <task id="LOCAL-00006" summary="BOA-250">
-      <branch name="java15" repository="C:\Users\valtoni\OneDrive\work\workspaces\update2024\javahistory" />
-      <changelist id="5918d585-9e33-411c-b596-a108735fdb6c" name="Changes" comment="Workspace finished" />
-      <created>1736003288439</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
+    <task active="true" id="LOCAL-00007" summary="java16">
+      <changelist id="5918d585-9e33-411c-b596-a108735fdb6c" name="Changes" comment="" />
+      <created>1736004674631</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1736003422359</updated>
-      <workItem from="1736003305538" duration="62000" />
-      <workItem from="1736003394667" duration="28000" />
+      <updated>1736004684927</updated>
+      <workItem from="1736004684955" duration="3656000" />
     </task>
-    <option name="localTasksCounter" value="7" />
+    <option name="localTasksCounter" value="8" />
     <option name="clearContext" value="false" />
+    <option name="createChangelist" value="false" />
     <option name="createBranch" value="false" />
     <servers />
   </component>
