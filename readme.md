@@ -66,3 +66,7 @@ This project show ups the differences between each java major versions.
 - :heavy_check_mark: Pattern Matching for instanceof
 - :heavy_check_mark: Unix Domain Sockets are now supported (note: UDS was introduced in Windows [starting at version 10 insider build 17063](https://devblogs.microsoft.com/commandline/af_unix-comes-to-windows/?form=MG0AV3))
 - :heavy_exclamation_mark: An incubating package tool called `jpackage` was included and and the Java application can be turned into platform-specific packages, including all necessary dependencies. (TO-DO: add [maven plugin](https://akman.github.io/jpackage-maven-plugin/examples/from-application-image.html)). To Linux: deb and rpm, macOS: pkg and dmg and Windows: msi and exe.
+
+## [Java 17](https://www.oracle.com/java/technologies/javase/17-relnote-issues.html)
+- :heavy_exclamation_mark: Sealed Classes - The sealed feature was added to close the scope of inherited classes.
+
