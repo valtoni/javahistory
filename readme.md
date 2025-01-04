@@ -56,3 +56,8 @@ This project show ups the differences between each java major versions.
 - :heavy_check_mark: Improved switch statements
 - :heavy_check_mark: Multiline Strings
 - :heavy_check_mark: Helpful NullPointerExceptions
+
+## [Java 15](https://www.oracle.com/java/technologies/javase/15-relnote-issues.html)
+- :heavy_check_mark: Text-Blocks / Multiline Strings
+- :heavy_check_mark: Removed Nashorn JavaScript Engine
+- :heavy_check_mark: [Z Garbage Collector](https://wiki.openjdk.org/display/zgc/Main) is production ready

@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5918d585-9e33-411c-b596-a108735fdb6c" name="Changes" comment="Workspace finished">
-      <change afterPath="$PROJECT_DIR$/module-facilities/src/main/java/org/github/valtoni/matrix/facilities/NullPointerFacility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-facilities/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/module-facilities/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-facilities/src/main/java/org/github/valtoni/matrix/facilities/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-facilities/src/main/java/org/github/valtoni/matrix/facilities/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-reality/src/main/java/org/github/valtoni/matrix/reality/Singularity.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-reality/src/main/java/org/github/valtoni/matrix/reality/Singularity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-reality/src/main/java/org/github/valtoni/matrix/reality/actions/HumanAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-reality/src/main/java/org/github/valtoni/matrix/reality/actions/HumanAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-reality/src/main/java/org/github/valtoni/matrix/reality/actions/HumanActionFly.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-reality/src/main/java/org/github/valtoni/matrix/reality/actions/HumanActionFly.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-reality/src/main/java/org/github/valtoni/matrix/reality/actions/HumanActionTakePill.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-reality/src/main/java/org/github/valtoni/matrix/reality/actions/HumanActionTakePill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-reality/src/main/java/org/github/valtoni/matrix/reality/actions/HumanActionTalk.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-reality/src/main/java/org/github/valtoni/matrix/reality/actions/HumanActionTalk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-reality/src/main/java/org/github/valtoni/matrix/reality/humans/HumanConceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-reality/src/main/java/org/github/valtoni/matrix/reality/humans/HumanConceptor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
@@ -31,6 +33,11 @@
         <option name="argument" value="--tags" />
         <option name="title" value="All" />
       </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="java15" />
+      </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -62,11 +69,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Application.MultilineText.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "git-widget-placeholder": "java11",
+    "git-widget-placeholder": "java15",
     "go.import.settings.migrated": "true",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
@@ -76,7 +84,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "SDKs",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "com.github.copilot.settings.ApplicationConfigurable",
@@ -84,6 +92,67 @@
   }
 }]]></component>
   <component name="RunManager">
+    <configuration name="HumanActionTalk" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.github.valtoni.matrix.reality.actions.HumanActionTalk" />
+      <module name="module-reality" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.github.valtoni.matrix.reality.actions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.github.valtoni.matrix.Main" />
+      <module name="module-matrix" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.github.valtoni.matrix.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MethodReferenceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.github.valtoni.java8.MethodReferenceExample" />
+      <module name="javahistory" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.github.valtoni.java8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RepeatedAnnotationExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.github.valtoni.java8.RepeatedAnnotationExample" />
+      <module name="javahistory" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.github.valtoni.java8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="javahistory" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="javahistory" />
       <working_directory value="$PROJECT_DIR$" />
@@ -103,6 +172,40 @@
       <framework value="gotest" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="javahistory" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SpawnPillTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="module-hovercraft" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.github.valtoni.matrix.pill.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.github.valtoni.matrix.pill" />
+      <option name="MAIN_CLASS_NAME" value="org.github.valtoni.matrix.pill.SpawnPillTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SpawnPillTests" />
+        <item itemvalue="Application.RepeatedAnnotationExample" />
+        <item itemvalue="Application.MethodReferenceExample" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.HumanActionTalk" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -119,34 +222,26 @@
       <created>1735489050037</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1735489050037</updated>
+      <updated>1736003422359</updated>
       <workItem from="1735489051219" duration="21753000" />
+      <workItem from="1736001811481" duration="1491000" />
+      <workItem from="1736003367658" duration="27000" />
+      <workItem from="1736003422701" duration="914000" />
     </task>
-    <task id="LOCAL-00001" summary="Improvements to take pill and the project&#10;&#10;- Added documentation to Singularity class&#10;- Added IntelliJ control directory&#10;- Added Pill Action">
-      <option name="closed" value="true" />
-      <created>1735491565675</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
+    <task id="LOCAL-00006" summary="BOA-250">
+      <branch name="java15" repository="C:\Users\valtoni\OneDrive\work\workspaces\update2024\javahistory" />
+      <changelist id="5918d585-9e33-411c-b596-a108735fdb6c" name="Changes" comment="Workspace finished" />
+      <created>1736003288439</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1735491565675</updated>
+      <updated>1736003422359</updated>
+      <workItem from="1736003305538" duration="62000" />
+      <workItem from="1736003394667" duration="28000" />
     </task>
-    <task id="LOCAL-00002" summary="Added java 10 improvements">
-      <option name="closed" value="true" />
-      <created>1735661527161</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1735661527161</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Added java time-based info">
-      <option name="closed" value="true" />
-      <created>1735663096647</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1735663096647</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="7" />
+    <option name="clearContext" value="false" />
+    <option name="createBranch" value="false" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,10 +262,17 @@
     <MESSAGE value="Improvements to take pill and the project&#10;&#10;- Added documentation to Singularity class&#10;- Added IntelliJ control directory&#10;- Added Pill Action" />
     <MESSAGE value="Added java 10 improvements" />
     <MESSAGE value="Added java time-based info" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added java time-based info" />
+    <MESSAGE value="Java 14 features" />
+    <MESSAGE value="Workspace finished" />
+    <MESSAGE value="BOA-250" />
+    <option name="LAST_COMMIT_MESSAGE" value="BOA-250" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
     <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
