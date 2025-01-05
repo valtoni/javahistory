@@ -70,3 +70,6 @@ This project show ups the differences between each java major versions.
 ## [Java 17](https://www.oracle.com/java/technologies/javase/17-relnote-issues.html)
 - :heavy_exclamation_mark: Sealed Classes - The sealed feature was added to close the scope of inherited classes.
 
+## [Java18](https://www.oracle.com/java/technologies/javase/18-relnote-issues.html)
+- :heavy_exclamation_mark: Reading lines was changed to UTF-8
+- :heavy_check_mark: [Simple WebServer](https://openjdk.org/jeps/408) was introduced. Example in jshell [SimpleFileServerLocal.sh](src/main/java/org/github/valtoni/matrix/facilities/SimpleFileServerLocal.jsh) that show home directory.
