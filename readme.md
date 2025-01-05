@@ -8,7 +8,7 @@ This project show ups the differences between each java major versions.
 - :heavy_check_mark: You can see in this feature in that project.
 - :ok: Only informational.
 
-## Java 9
+## [Java 9](https://www.oracle.com/java/technologies/javase/9-all-relnotes.html)
 - :heavy_check_mark: Module System (Project Jigsaw)
   - Break project in modules (Added [module-info](src/main/java/module-info.java) in each project).
   - Maven compiler plugin was changed to reflect [maven.compiler.release](pom.xml) property in as central pom.
@@ -73,3 +73,5 @@ This project show ups the differences between each java major versions.
 ## [Java18](https://www.oracle.com/java/technologies/javase/18-relnote-issues.html)
 - :heavy_exclamation_mark: Reading lines was changed to UTF-8
 - :heavy_check_mark: [Simple WebServer](https://openjdk.org/jeps/408) was introduced. Example in jshell [SimpleFileServerLocal.sh](src/main/java/org/github/valtoni/matrix/facilities/SimpleFileServerLocal.jsh) that show home directory.
+
+## [Java19](https://www.oracle.com/java/technologies/javase/19-relnote-issues.html)
