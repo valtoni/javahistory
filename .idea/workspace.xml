@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5918d585-9e33-411c-b596-a108735fdb6c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/module-facilities/src/main/java/org/github/valtoni/matrix/facilities/OsDomainSocketChannels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-facilities/src/main/java/org/github/valtoni/matrix/facilities/PatternMatchingInstanceOf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="5918d585-9e33-411c-b596-a108735fdb6c" name="Changes" comment="Improvements to take pill and the project&#10;&#10;- Added documentation to Singularity class&#10;- Added IntelliJ control directory&#10;- Added Pill Action">
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/github/valtoni/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-facilities/src/main/java/org/github/valtoni/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/github/valtoni/java8/DefaultMethodExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/github/valtoni/java8/LambdaExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/github/valtoni/java8/MethodReferenceExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/github/valtoni/java8/RepeatedAnnotationExample.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,18 +20,13 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="PUSH_TAGS">
-      <GitPushTagMode>
-        <option name="argument" value="--tags" />
-        <option name="title" value="All" />
-      </GitPushTagMode>
-    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="java15" />
+        <entry key="$PROJECT_DIR$" value="java18" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -64,19 +50,17 @@
   <component name="ProjectViewState">
     <option name="flattenModules" value="true" />
     <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Main.executor": "Run",
-    "Application.MultilineText.executor": "Run",
-    "Application.OsDomainSocketChannels.executor": "Run",
-    "Application.PatternMatchingInstanceOf.executor": "Run",
+    "Application.Main.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "java19",
     "go.import.settings.migrated": "true",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
@@ -86,7 +70,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "com.github.copilot.settings.ApplicationConfigurable",
@@ -94,25 +78,6 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
-      <module name="javahistory" />
-      <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
-      <module name="javahistory" />
-      <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
-      <kind value="DIRECTORY" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <method v="2" />
-    </configuration>
     <configuration name="HumanActionTalk" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.github.valtoni.matrix.reality.actions.HumanActionTalk" />
       <module name="module-reality" />
@@ -224,25 +189,27 @@
       <created>1735489050037</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1736003422359</updated>
+      <updated>1735489050037</updated>
       <workItem from="1735489051219" duration="21753000" />
-      <workItem from="1736001811481" duration="1491000" />
-      <workItem from="1736003367658" duration="27000" />
-      <workItem from="1736003422701" duration="914000" />
+      <workItem from="1736041242413" duration="181000" />
     </task>
-    <task active="true" id="LOCAL-00007" summary="java16">
-      <changelist id="5918d585-9e33-411c-b596-a108735fdb6c" name="Changes" comment="" />
-      <created>1736004674631</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
+    <task id="LOCAL-00001" summary="Improvements to take pill and the project&#10;&#10;- Added documentation to Singularity class&#10;- Added IntelliJ control directory&#10;- Added Pill Action">
+      <option name="closed" value="true" />
+      <created>1735491565675</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1736004684927</updated>
-      <workItem from="1736004684955" duration="3656000" />
+      <updated>1735491565675</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
-    <option name="clearContext" value="false" />
-    <option name="createChangelist" value="false" />
-    <option name="createBranch" value="false" />
+    <task id="LOCAL-00002" summary="Added java 10 improvements">
+      <option name="closed" value="true" />
+      <created>1735661527161</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1735661527161</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,18 +229,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Improvements to take pill and the project&#10;&#10;- Added documentation to Singularity class&#10;- Added IntelliJ control directory&#10;- Added Pill Action" />
     <MESSAGE value="Added java 10 improvements" />
-    <MESSAGE value="Added java time-based info" />
-    <MESSAGE value="Java 14 features" />
-    <MESSAGE value="Workspace finished" />
-    <MESSAGE value="BOA-250" />
-    <option name="LAST_COMMIT_MESSAGE" value="BOA-250" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added java 10 improvements" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
     <settings-migrated>true</settings-migrated>
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>
