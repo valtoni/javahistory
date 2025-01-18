@@ -2,7 +2,7 @@ package org.github.valtoni.matrix.facilities;
 
 public class PatternMatchingInstanceOf {
 
-    public static enum PointType { CLASS, RECORD };
+    public enum PointType { CLASS, RECORD };
 
     public static class PointClass {
 
@@ -21,8 +21,8 @@ public class PatternMatchingInstanceOf {
     public static void main(String[] args) {
         Object objRecord = createPoint(PointType.RECORD);
         Object objClass = createPoint(PointType.CLASS);
-        if (objRecord instanceof PointRecord point) {
-            System.out.format("Record - x: %d, y: %d \n", point.x, point.y);
+        if (objRecord instanceof PointRecord(int x, int y)) {
+            System.out.format("Record - x: %d, y: %d \n", x, y);
         }
         if (objClass instanceof PointClass point) {
             System.out.format("Class - x: %d, y: %d \n", point.x, point.y);
