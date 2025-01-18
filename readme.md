@@ -77,3 +77,19 @@ This project show ups the differences between each java major versions.
 ## [Java19](https://www.oracle.com/java/technologies/javase/19-relnote-issues.html)
 :neckbeard: Anything meaningful can be added. Contributions are welcome !
 
+## [Java20](https://www.oracle.com/java/technologies/javase/20-relnote-issues.html)
+:neckbeard: Anything meaningful can be added. Contributions are welcome !
+
+## [Java21](https://www.oracle.com/java/technologies/javase/21-relnote-issues.html)
+- :heavy_check_mark: [Record Patterns](src/main/java/org/github/valtoni/matrix/facilities/ColoredPointMain.java#22)
+- :heavy_check_mark: [Pattern Matching for switch](src/main/java/org/github/valtoni/matrix/facilities/ColoredPointMain.java#37)
+- :heavy_check_mark: [Virtual Threads](src/main/java/org/github/valtoni/matrix/facilities/MainVirtualThreads1.java)
+- :heavy_check_mark: [Sequenced Collections](src/main/java/org/github/valtoni/matrix/facilities/SequencedCollections.java)
+- :heavy_check_mark: [Key Encapsulation Mechanism API (KEM)](src/main/java/org/github/valtoni/matrix/facilities/KemGeneration.java)
+- :heavy_exclamation_mark: [Generational ZGC](https://openjdk.org/jeps/439) - despite the way that ZGC work (about microseconds),
+[the weak generational hypothesis](https://docs.oracle.com/en/java/javase/17/gctuning/garbage-collector-implementation.html#GUID-71D796B3-CBAB-4D80-B5C3-2620E45F6E5D)
+takes it place, he still here in 2025: young objects tend to die young and old objects tends to stick around. The
+Generational ZGC improve the performance of applications breaking away the 2 generations: young and old objects, pause the jvm more frequently
+and collect them more usually, improving the algorithm of collectors. The old generation is still affected because we can have
+objects of young generation pointing objects of old generation. This jep showed one interesting benchmark: Apache Cassandra 
+requires 1/4 of required size and achieves 4x the throughput due to the this young generator new style collector. 
